@@ -1,0 +1,148 @@
+html, body {
+ font-family: 'Lato', sans-serif;
+ color: #003267;
+}
+@media only screen and (max-width: 1200px) {
+  .contactus {
+    display:none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contactusagain {
+    display:none;
+  }
+}
+
+.maxrefund {
+  color: #6798D2;
+}
+
+.bluescheme {
+  color: #6798D2;
+  padding-bottom: 10px;
+}
+
+.welcome-to {
+  font-weight: bolder;
+  color: #003267;
+  padding-left: 13px;
+}
+
+.chavas-tax-notary {
+  font-weight: bolder;
+  color: #6798D2;
+  padding-left: 13px;
+}
+
+.intro {
+  font-size: 1.1em;
+}
+
+.services-title {
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.bluecard {
+  background-color: #D7E9FF;
+}
+
+.contrastcard {
+  background-color: #F8F2F2;
+}
+
+.landingservices {
+  margin-top:100px;
+  margin-bottom: 40px;
+}
+
+.service-spacing {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.tagline {
+  font-size: 5em;
+  font-weight:500;
+}
+.services {
+  font-size: 5em;
+  font-weight: heavy;
+}
+.heroimg {
+  position: relative;
+  width: 100%;
+}
+
+.heroimg--tagline{
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.heroimg--services {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 100%;
+}
+
+.intro {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.services {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.services-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.services__items {
+  font-size: 50px;
+}
+
+.tagline {
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+.parent{
+  position:relative;
+}
+
+.contact-container {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+.contactinfo {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  font-size: 1.5em;
+}
+.free {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+}
+.free-text {
+  font-size: 4em;
+  color:white;
+}
+.businesshours {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+}
