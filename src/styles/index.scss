@@ -1,18 +1,57 @@
-body {
-  background-color: #FEFEFE;
-  height: 100%;
-  margin: 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans');
+$font-stack:'Roboto', sans-serif;
+$font-stack-copy: 'Work Sans', sans-serif;
+$bgColor: hsl(171, 100%, 41%);
+$primaryColor: #eeffcc;
+
 .container {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: $bgColor;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 90px;
+  .col__tagline {
+    margin-top: 130px;
+  }
+  .col__socialmedia {
+    a {
+      margin-right:10px;
+    }
+  }
   h1 {
-    padding: 50px;
-    background-color: yellow;
+    font-family: $font-stack;
+    align-self: flex-start;
+  }
+  p {
+    padding: 0px;
+    margin-top: 0px;
+    font-family: $font-stack-copy;
+    align-self: flex-start;
+    line-height: 1.4em;
+  }
+}
+.francotorium__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  width: 60%;
+  height: 100%;
+  .francotorium__svg {
+    width: 100%;
+    padding-top: 0px;
+    margin-bottom: 40px;
   }
 }
