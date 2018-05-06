@@ -1,6 +1,6 @@
 ---
-path: future
+path: /future
 date: '2018-05-05'
-title: Hello Future Me
+title: '"Hello Future Me"'
 ---
 
