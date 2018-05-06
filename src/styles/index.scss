@@ -1,0 +1,20 @@
+body {
+  background-color: #FEFEFE;
+  height: 100%;
+  margin: 0;
+  color: red;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: red;
+  h1 {
+    padding: 50px;
+    background-color: yellow;
+  }
+}
