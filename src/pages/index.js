@@ -27,7 +27,7 @@ render() {
                       <a href="http://www.twitter.com/francotorium" target="_blank">
                         <img className="" src={Twitter} />
                       </a>
-                      <a href="www.linkedin.com/in/francotorium" target="_blank">
+                      <a href="http://www.linkedin.com/in/francotorium" target="_blank">
                         <img className="" src={LinkedIn} />
                       </a>
                       <a href="mailto:francotorium@gmail.com?Subject=Hello%20lets%20get%20coffee" target="_blank">
