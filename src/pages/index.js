@@ -20,6 +20,9 @@ render() {
                     <p>
                       I love imagining new realities for people and systems.
                     </p>
+                    <p>
+                       I'm also looking for a full stack dev internship this summer!
+                    </p>
                     <div className="col__socialmedia">
                       <a href="http://www.github.com/francotorium" target="_blank">
                         <img className="" src={Github} />
