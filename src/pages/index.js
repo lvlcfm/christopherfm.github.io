@@ -1,10 +1,10 @@
 import React from "react"
-import '../styles/index.scss'
 import Francotorium from '../images/francotoriumsvg_animated.svg'
 import Github from '../images/github.svg'
 import Twitter from '../images/twitter.svg'
 import LinkedIn from '../images/linkedin.svg'
 import Email from '../images/send.svg'
+import '../styles/index.scss'
 
 export default class IndexPage extends React.Component {
 render() {
