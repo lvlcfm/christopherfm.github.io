@@ -21,7 +21,7 @@ render() {
                       I love imagining new realities for people and systems.
                     </p>
                     <p>
-                       I'm also looking for a full stack dev internship this summer!
+                      Previously at Glassdoor as a Software Engineer Intern now a UI Developer Intern in the Open Source Program Office at VMware 
                     </p>
                     <div className="col__socialmedia">
                       <a href="http://www.github.com/francotorium" target="_blank">
