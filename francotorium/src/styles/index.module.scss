@@ -1,15 +1,125 @@
 @font-face {
   font-family: Chivo-bold;
-  src: url('../assets/fonts/Chivo-Bold.ttf');
+  src: url("../assets/fonts/Chivo-Bold.ttf");
 }
 @font-face {
   font-family: Chivo-regular;
-  src: url('../assets/fonts/Chivo-Regular.ttf');
+  src: url("../assets/fonts/Chivo-Regular.ttf");
+}
+.container__logo {
+  margin: 0 auto;
+  max-width: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 300px;
+  margin: 0 auto;
+  align-self: center;
+}
+.container__intro {
+  display: flex;
+  margin: 0 auto;
+  max-width: 655px;
+  min-height: 200px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 .intro {
   font-size: 42px;
   font-family: Chivo-bold;
   margin-top: 20px;
+}
+.container__infoLook {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 655px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.info__itemsLook {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 75%;
+  font-size: 18px;
+  font-family: Chivo-regular;
+  div {
+    margin-bottom: 10px;
+  }
+}
+.info__categoryLook {
+  font-size: 24px;
+  font-family: Chivo-bold;
+  background: linear-gradient(180deg, transparent 65%, #EE7E80 65%);
+  display: inline;
+}
+.container__infoPrev {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 655px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+.info__itemsPrev {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 75%;
+  font-size: 18px;
+  font-family: Chivo-regular;
+  div {
+    margin-bottom: 10px;
+  }
+}
+
+.info__categoryPrev {
+  font-size: 24px;
+  font-family: Chivo-bold;
+  background: linear-gradient(180deg, transparent 65%, #64C9F9 65%);
+  display: inline;
+}
+
+.container__infoHello {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 655px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: Chivo-regular;
+}
+.info__itemsHello {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 75%;
+  font-size: 18px;
+  font-family: Chivo-regular;
+}
+.info__categoryHello {
+  font-size: 24px;
+  font-family: Chivo-bold;
+  background: linear-gradient(180deg, transparent 65%, #FF6E49 65%);
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+
+.intro__name {
+  background: linear-gradient(180deg, transparent 65%, #5dceb3 65%);
+  display: inline;
 }
 .intro__tag {
   font-size: 24px;
@@ -18,56 +128,14 @@
 }
 
 .intro__desc__t {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Chivo-regular;
   margin-top: 25px;
 }
 
 .intro__desc__b {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Chivo-regular;
   margin-top: 10px;
   margin-bottom: 50px;
-}
-
-.category {
-  font-family: Chivo-bold;
-  font-size: 24px;
-  margin-top: 50px;
-  background-color: tomato;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 655px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center ;
-}
-.container__logo {
-  margin: 0 auto;
-  max-width: 400px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center ;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.logo {
-  width: 300px;
-  margin: 0 auto;
-  align-self:center ;
 }
