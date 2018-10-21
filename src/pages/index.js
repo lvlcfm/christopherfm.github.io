@@ -29,7 +29,7 @@ export default () => (
         <div>
           VMware, Open Source Program Office - UI Developer Intern
         </div>
-        <div>Glassdoor, Content Team, Software Engineer Intern</div>
+        <div>Glassdoor, Content Team - Software Engineer Intern</div>
       </div>
     </div>
     {/* here */}
