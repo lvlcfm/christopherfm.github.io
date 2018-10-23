@@ -1,7 +1,15 @@
 import React from "react";
 import Franco from "../assets/francotoriumAnime.svg";
 import indexStyles from "../styles/index.module.scss";
+import { injectGlobal } from 'styled-components';
 
+injectGlobal`
+  html {
+    height: 100%;
+    width: 100%;
+    background-color: #FCFAF6;
+  }
+`
 export default () => (
   <div>
     <div className={indexStyles.container__logo}>
