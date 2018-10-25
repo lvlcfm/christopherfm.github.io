@@ -25,10 +25,10 @@ export default () => (
         I’m a full stack developer and product designer
       </div>
       <div className={indexStyles.intro__desc__t}>
-      I have a background in Computer Science & Rhetoric and
+      I'm a student at UC Berkeley with a background in Computer Science & Rhetoric
       </div>
       <div className={indexStyles.intro__desc__b}>
-        love imagining new realities and experiences for people and systems.
+        I love imagining new realities and experiences for people and systems.
       </div>
     </div>
 
