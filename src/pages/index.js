@@ -7,7 +7,9 @@ injectGlobal`
   html {
     height: 100%;
     width: 100%;
-    background-color: #FCFAF6;
+    background-color: #F2EFEA;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 `
 export default () => (
