@@ -53,7 +53,7 @@ export default () => (
     </div>
    {/* here */}
     <div className={indexStyles.container__infoHello}>
-        <a href="mailto:francotorium@gmail.com" className={indexStyles.info__categoryHello}>say hello</a>
+        <a href="mailto:himahmago@gmail.com" className={indexStyles.info__categoryHello}>say hello</a>
       <div className={indexStyles.info__itemsHello}>
         <div>Smart Cities, EdTech, AI, Design, Coffee, Code - let’s chat!</div>
       </div>
