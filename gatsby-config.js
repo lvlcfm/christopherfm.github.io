@@ -17,5 +17,12 @@ module.exports = {
       sampleRate: 5,
       siteSpeedSampleRate: 10,
     },
-  },]
+  },{
+    resolve: 'gatsby-plugin-matomo',
+    options: {
+      siteId: '1',
+      matomoUrl: 'https://mahmago.matomo.cloud',
+      siteUrl: 'https://mahmago.com'
+    }
+  }]
 };
