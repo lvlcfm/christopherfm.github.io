@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import { css } from '@emotion/core'
 
 const ListLink = props => (
   <li
@@ -55,15 +56,16 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </h2>
     </Link>
-    <div
-      style={{
-        listStyle: `none`,
-        display: 'flex',
-      }}
+    <ul
+      css={css`
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+      `}
     >
       <ListLink to="/about">About</ListLink>
       <ListLink to="/blog">Blog</ListLink>
-    </div>
+    </ul>
   </div>
 )
 
