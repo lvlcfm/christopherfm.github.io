@@ -30,7 +30,6 @@ const Header = ({ siteTitle }) => (
       maxWidth: '100%',
       marginBottom: '20px',
       marginTop: '20px',
-      marginBottom: '20px',
 
       padding: '1.45rem 1.0875rem',
       display: 'flex',
