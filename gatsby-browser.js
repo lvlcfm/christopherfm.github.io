@@ -13,6 +13,6 @@ exports.onServiceWorkerUpdateFound = () => {
   )
 
   if (answer === true) {
-    window.reload()
+    window.location.reload()
   }
 }
