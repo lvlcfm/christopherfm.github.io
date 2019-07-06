@@ -18,7 +18,7 @@ export default ({ data }) => {
             border-bottom: 1px solid;
           `}
         >
-          The Traversal
+          Franco's Cognitive Experiments
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (

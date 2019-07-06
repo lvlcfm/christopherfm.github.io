@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { css } from '@emotion/core'
-import MahMago from '../assets/mahMago.svg'
+import Francogments from '../assets/mahMago.svg'
 
 const IndexPage = () => (
   <Layout>
@@ -35,8 +35,8 @@ const IndexPage = () => (
           css={css`
             width: 300px;
           `}
-          src={MahMago}
-          alt="MahMago SVG Animated Logo"
+          src={Francogments}
+          alt="Francogments SVG Animated Logo"
         />
       </div>
 
@@ -193,7 +193,7 @@ const IndexPage = () => (
         `}
       >
         <a
-          href="mailto:himahmago@gmail.com"
+          href="mailto:francogments@gmail.com"
           css={css`
             font-size: 24px;
             font-family: Chivo-bold;

@@ -11,7 +11,11 @@ export default ({ data }) => (
       `}
     >
       <h1>About</h1>
-      <p>A place to share my projects, ideas and thoughts</p>
+      <p>
+        Hello! Welcome to my home, FranCogMents! It stands for "Franco's
+        Cognitive Experiements" where I post my projects, thoughts and
+        resources.
+      </p>
     </div>
   </Layout>
 )
