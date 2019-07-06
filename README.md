@@ -1,5 +1,5 @@
-# MahMago
+# Franco's Cognitive Experiments
 
-## Christopher Franco Monterrosa's Website
+## Christopher Franco's Website
 
 Made with Gatsby <3

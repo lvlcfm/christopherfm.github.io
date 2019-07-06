@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'MahMago',
+    title: 'FranCogMents',
     description:
       'This site is dedicated to my projects, design, inventions and ideas',
-    author: 'Christopher Franco Monterrosa',
+    author: 'Christopher Franco',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
