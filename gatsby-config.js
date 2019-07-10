@@ -25,8 +25,8 @@ module.exports = {
       resolve: 'gatsby-plugin-matomo',
       options: {
         siteId: '1',
-        matomoUrl: 'https://mahmago.matomo.cloud',
-        siteUrl: 'https://mahmago.com',
+        matomoUrl: 'https://francogments.matomo.cloud',
+        siteUrl: 'https://francogments.com',
       },
     },
     {
