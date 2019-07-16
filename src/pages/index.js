@@ -174,8 +174,7 @@ const IndexPage = () => (
             }
           `}
         >
-          <div>for a summer 2019 software engineering internship</div>
-          <div>for a Winter 2018 software engineering internship</div>
+          <div>for a Fall 2019 software engineering internship</div>
           <div>for a freelance project or contract position right now</div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 ---
 title: 'It Starts with Zero'
 date: '2019-07-06'
+category: francogments
 ---
 
 Here's to the paths less traveled.

@@ -18,7 +18,7 @@ export default ({ data }) => {
             border-bottom: 1px solid;
           `}
         >
-          Franco's Cognitive Experiments
+          City Scope
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -56,7 +56,7 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { frontmatter: { category: { eq: "francogments" } } }
+      filter: { frontmatter: { category: { eq: "cityscope" } } }
     ) {
       totalCount
       edges {
