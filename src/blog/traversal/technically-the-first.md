@@ -1,5 +1,5 @@
 ---
-title: 'Technicall First'
+title: 'Technically First'
 date: '2019-07-15'
 category: traversal
 ---
