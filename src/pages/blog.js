@@ -20,6 +20,11 @@ export default ({ data }) => {
         >
           Franco's Cognitive Experiments
         </h1>
+        <h4>
+          My personal blog where I write about SMART Cities, Smart Urban
+          Systems, Design, technical deep dives, case studies, my experiements
+          and projects.
+        </h4>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>

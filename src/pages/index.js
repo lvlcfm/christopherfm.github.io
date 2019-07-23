@@ -14,6 +14,8 @@ const IndexPage = () => (
         'EdTech',
         'Smart Cities',
         'Design',
+        'Smart Urban Systems',
+        'Full Stack Developer',
       ]}
     />
     <div

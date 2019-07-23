@@ -63,10 +63,9 @@ const Header = ({ siteTitle }) => (
         margin: 0;
       `}
     >
+      <ListLink to="/">Projects</ListLink>
       <ListLink to="/blog">Blog</ListLink>
-      <ListLink to="/traversal">The Traversal</ListLink>
-      <ListLink to="/cityscope">City Scope</ListLink>
-      <ListLink to="/about">About</ListLink>
+      <ListLink to="/about">About Me</ListLink>
     </ul>
   </div>
 )
