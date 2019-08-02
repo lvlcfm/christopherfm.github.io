@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { css } from '@emotion/core'
-import Francogments from '../assets/mahMago.svg'
+import Francogments from '../assets/francogments.svg'
 
 const IndexPage = () => (
   <Layout>
