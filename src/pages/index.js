@@ -179,6 +179,94 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-end;
+          font-size: 3em;
+          margin-top: 50px;
+          flex-flow: wrap;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-size: 3em;
+          `}
+        >
+          <h1
+            css={css`
+              margin: 0;
+              font-size: 1em;
+              font-family: Chivo-bold;
+            `}
+          >
+            WORK
+          </h1>
+          <h1
+            css={css`
+              margin: 0;
+              font-size: 1em;
+              font-family: Chivo-bold;
+            `}
+          >
+            WORK
+          </h1>
+          <h1
+            css={css`
+              margin: 0;
+              font-size: 1em;
+              font-family: Chivo-bold;
+            `}
+          >
+            WORK
+          </h1>
+        </div>
+        <div
+          css={css`
+            width: 20px;
+            background-color: #555;
+          `}
+        />
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-size: 3em;
+          `}
+        >
+          <h1
+            css={css`
+              margin: 0;
+              font-size: 1em;
+              font-family: Chivo-bold;
+            `}
+          >
+            WORK
+          </h1>
+          <h1
+            css={css`
+              margin: 0;
+              font-size: 1em;
+              font-family: Chivo-bold;
+            `}
+          >
+            WORK
+          </h1>
+          <h1
+            css={css`
+              margin: 0;
+              font-size: 1em;
+              font-family: Chivo-bold;
+            `}
+          >
+            WORK
+          </h1>
+        </div>
+      </div>
     </div>
   </Layout>
 )
