@@ -5,6 +5,9 @@ import Header from './header'
 import './layout.css'
 import { css } from '@emotion/core'
 require('typeface-chivo')
+if (typeof window !== 'undefined') {
+  require('smooth-scroll')('a[href*="#"]')
+}
 
 const Layout = ({ children }) => (
   <StaticQuery
