@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { css } from '@emotion/core'
@@ -265,6 +266,403 @@ const IndexPage = () => (
           >
             WORK
           </h1>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          margin-top: 100px;
+        `}
+      />
+      <div
+        css={css`
+          height: 480px;
+          width: 100%;
+          background-color: #333333;
+        `}
+      />
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 37px;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            flex: 0.5;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore.{' '}
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Responsibilities
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Fullstack Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Front-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Back-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Software Architect
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              DevOps Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              AWS Solution Architect
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          margin-top: 100px;
+        `}
+      />
+      <div
+        css={css`
+          height: 480px;
+          width: 100%;
+          background-color: #333333;
+        `}
+      />
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 37px;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            flex: 0.5;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore.{' '}
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Responsibilities
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Fullstack Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Front-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Back-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Software Architect
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              DevOps Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              AWS Solution Architect
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          margin-top: 100px;
+        `}
+      />
+      <div
+        css={css`
+          height: 480px;
+          width: 100%;
+          background-color: #333333;
+        `}
+      />
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin-top: 37px;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            flex: 0.5;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore.{' '}
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Responsibilities
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Fullstack Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Front-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Back-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Software Architect
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              DevOps Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              AWS Solution Architect
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          width: 100%;
+          margin-top: 100px;
+        `}
+      >
+        <div>
+          <Link
+            to="/#home"
+            style={{
+              color: 'Black',
+              textDecoration: 'none',
+              margin: 0,
+            }}
+          >
+            <img
+              css={css`
+                width: 50px;
+                margin: 0;
+                margin-left: 20px;
+              `}
+              src={SmolFrancogments}
+              alt="Francogments SVG Animated Logo"
+            />
+            <div
+              css={css`
+                margin-right: 10px;
+              `}
+            >
+              Back To Top
+            </div>
+          </Link>
         </div>
       </div>
     </div>

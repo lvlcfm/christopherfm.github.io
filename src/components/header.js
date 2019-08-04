@@ -4,6 +4,9 @@ import React from 'react'
 import { css } from '@emotion/core'
 import Francogments from '../assets/smolfrancogments.svg'
 
+if (typeof window !== 'undefined') {
+  require('smooth-scroll')('a[href*="#"]')
+}
 const ListLink = props => (
   <li
     style={{
@@ -51,6 +54,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <img
+        id="home"
         css={css`
           width: 50px;
         `}

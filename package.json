@@ -23,6 +23,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
+    "smooth-scroll": "^16.1.0",
     "typeface-chivo": "0.0.54"
   },
   "keywords": [
