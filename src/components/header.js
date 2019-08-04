@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { css } from '@emotion/core'
-import Francogments from '../assets/francogmentstiny.svg'
+import Francogments from '../assets/smolfrancogments.svg'
 
 const ListLink = props => (
   <li
