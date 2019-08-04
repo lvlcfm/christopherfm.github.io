@@ -11,12 +11,29 @@ export default ({ data }) => {
         css={css`
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
+          align-items: center;
           margin-top: 50px;
         `}
       >
         <div>
-          <h1>{post.frontmatter.title}</h1>
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              font-size: 2em;
+              margin-bottom: 15px;
+            `}
+          >
+            {post.frontmatter.title}
+          </div>
+          <div
+            css={css`
+              font-family: Chivo-light;
+              font-size: 1.2em;
+              margin-bottom: 20px;
+            `}
+          >
+            {post.frontmatter.date}
+          </div>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
       </div>
@@ -30,6 +47,8 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "DD MMMM, YYYY")
+        category
       }
     }
   }

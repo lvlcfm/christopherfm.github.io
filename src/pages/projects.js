@@ -56,23 +56,6 @@ export default ({ data }) => {
                 ”
               </span>
             </div>
-            {/* <div
-              css={css`
-                font-size: 5em;
-                font-family: Chivo-light;
-                margin-bottom: 70px;
-              `}
-            >
-              pay the
-            </div>
-            <div
-              css={css`
-                font-size: 5em;
-                font-family: Chivo-light;
-              `}
-            >
-              bills”-
-            </div> */}
           </div>
           <div
             css={css`
@@ -102,10 +85,12 @@ export default ({ data }) => {
             />
           </div>
         </div>
+
         <div
           css={css`
             height: 480px;
             width: 100%;
+            margin-top: 100px;
             background-color: #333333;
           `}
         />
@@ -113,6 +98,7 @@ export default ({ data }) => {
           css={css`
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: space-around;
             margin-top: 37px;
           `}
@@ -121,20 +107,22 @@ export default ({ data }) => {
             css={css`
               display: flex;
               flex-direction: column;
-              flex: 0.5;
               font-family: Chivo-Light;
             `}
           >
             <div
               css={css`
-                display: flex;
                 font-family: Chivo-bold;
                 margin-bottom: 10px;
               `}
             >
               Overview
             </div>
-            <div>
+            <div
+              css={css`
+                width: 480px;
+              `}
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -151,7 +139,6 @@ export default ({ data }) => {
           >
             <div
               css={css`
-                display: flex;
                 font-family: Chivo-bold;
                 margin-bottom: 10px;
               `}
@@ -218,14 +205,9 @@ export default ({ data }) => {
         </div>
         <div
           css={css`
-            display: flex;
-            margin-top: 100px;
-          `}
-        />
-        <div
-          css={css`
             height: 480px;
             width: 100%;
+            margin-top: 100px;
             background-color: #333333;
           `}
         />
@@ -233,6 +215,7 @@ export default ({ data }) => {
           css={css`
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: space-around;
             margin-top: 37px;
           `}
@@ -241,20 +224,22 @@ export default ({ data }) => {
             css={css`
               display: flex;
               flex-direction: column;
-              flex: 0.5;
               font-family: Chivo-Light;
             `}
           >
             <div
               css={css`
-                display: flex;
                 font-family: Chivo-bold;
                 margin-bottom: 10px;
               `}
             >
               Overview
             </div>
-            <div>
+            <div
+              css={css`
+                width: 480px;
+              `}
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -271,7 +256,6 @@ export default ({ data }) => {
           >
             <div
               css={css`
-                display: flex;
                 font-family: Chivo-bold;
                 margin-bottom: 10px;
               `}
@@ -338,14 +322,9 @@ export default ({ data }) => {
         </div>
         <div
           css={css`
-            display: flex;
-            margin-top: 100px;
-          `}
-        />
-        <div
-          css={css`
             height: 480px;
             width: 100%;
+            margin-top: 100px;
             background-color: #333333;
           `}
         />
@@ -353,6 +332,7 @@ export default ({ data }) => {
           css={css`
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: space-around;
             margin-top: 37px;
           `}
@@ -361,20 +341,22 @@ export default ({ data }) => {
             css={css`
               display: flex;
               flex-direction: column;
-              flex: 0.5;
               font-family: Chivo-Light;
             `}
           >
             <div
               css={css`
-                display: flex;
                 font-family: Chivo-bold;
                 margin-bottom: 10px;
               `}
             >
               Overview
             </div>
-            <div>
+            <div
+              css={css`
+                width: 480px;
+              `}
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -391,7 +373,6 @@ export default ({ data }) => {
           >
             <div
               css={css`
-                display: flex;
                 font-family: Chivo-bold;
                 margin-bottom: 10px;
               `}

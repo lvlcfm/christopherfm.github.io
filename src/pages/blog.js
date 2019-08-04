@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { css } from '@emotion/core'
 import Layout from '../components/layout'
+import SmolFrancogments from '../assets/smolfrancogments.svg'
 
 export default ({ data }) => {
   console.log(data)
@@ -9,50 +10,151 @@ export default ({ data }) => {
     <Layout>
       <div
         css={css`
-          margin-top: 50px;
+          margin-top: 100px;
         `}
       >
-        <h1
+        <div
           css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
           `}
         >
-          Franco's Cognitive Experiments
-        </h1>
-        <h4>
-          My personal blog where I write about SMART Cities, Smart Urban
-          Systems, Design, technical deep dives, case studies, my experiements
-          and projects.
-        </h4>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-              to={node.fields.slug}
+          <div
+            css={css`
+              font-size: 3.9em;
+              font-family: Chivo-light;
+              line-height: 1em;
+            `}
+          >
+            Franco's Cognitive Experiments
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 100px;
+            margin-bottom: 100px;
+          `}
+        >
+          <img
+            css={css`
+              height: 57px;
+            `}
+            src={SmolFrancogments}
+            alt="FranCogMents Logo"
+          />
+
+          <div
+            css={css`
+              font-size: 1em;
+              font-family: Chivo-light;
+              height: 57px;
+              width: 600px;
+            `}
+          >
+            <div
               css={css`
-                text-decoration: none;
-                color: inherit;
+                display: flex;
               `}
             >
-              <h3
+              <span
                 css={css`
-                  margin-bottom: 10px;
+                  font-size: 2em;
+                  font-family: Chivo-italic;
+                  margin-left: 21px;
+                  margin-right: 17px;
                 `}
               >
-                {node.frontmatter.title}{' '}
-                <span
+                -
+              </span>
+              <span
+                css={css`
+                  font-size: 2em;
+                  font-family: Chivo-italic;
+                  margin-right: 4px;
+                `}
+              >
+                “
+              </span>
+              <div
+                css={css`
+                  margin: 0;
+                `}
+              >
+                This is my personal blog where I write about technical things,
+                design things and not so very technical or design things.
+                Usually about SMART Cities, Design, technical deep dives, case
+                studies, tutorials, thought experiements and projects!!!!!
+              </div>
+              <span
+                css={css`
+                  font-size: 2em;
+                  font-family: Chivo-italic;
+                  align-self: flex-end;
+                  margin: 0;
+                `}
+              >
+                ”
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+          `}
+        >
+          <div
+            css={css`
+              width: 600px;
+              margin-top: 100px;
+            `}
+          >
+            {data.allMarkdownRemark.edges.map(({ node }) => (
+              <div key={node.id}>
+                <Link
+                  to={node.fields.slug}
                   css={css`
-                    color: #bbb;
+                    text-decoration: none;
+                    color: inherit;
                   `}
                 >
-                  — {node.frontmatter.date}
-                </span>
-              </h3>
-              <p>{node.excerpt}</p>
-            </Link>
+                  <div
+                    css={css`
+                      font-family: Chivo-bold;
+                      font-size: 1.8em;
+                      margin-bottom: 5px;
+                    `}
+                  >
+                    {node.frontmatter.title}{' '}
+                  </div>
+                  <div
+                    css={css`
+                      font-family: Chivo-light;
+                      margin-bottom: 5px;
+                    `}
+                  >
+                    {node.frontmatter.date}
+                  </div>
+                  <div
+                    css={css`
+                      font-family: Chivo-regular;
+                      margin: 0;
+                    `}
+                  >
+                    {node.excerpt}
+                  </div>
+                </Link>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </Layout>
   )

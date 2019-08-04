@@ -60,6 +60,7 @@ const IndexPage = () => (
             css={css`
               font-size: 2.3em;
               font-family: Chivo-black;
+              line-height: 1em;
               margin-top: 66px;
             `}
           >
@@ -83,6 +84,7 @@ const IndexPage = () => (
               css={css`
                 font-size: 2.3em;
                 font-family: Chivo-black;
+                line-height: 1em;
                 margin-top: 57px;
               `}
             >
@@ -92,7 +94,8 @@ const IndexPage = () => (
               css={css`
                 font-size: 2.3em;
                 font-family: Chivo-black;
-                margin-top: 25px;
+                line-height: 1em;
+                margin-top: 10px;
               `}
             >
               creative technologist
@@ -103,6 +106,7 @@ const IndexPage = () => (
               css={css`
                 font-size: 2.3em;
                 font-family: Chivo-bold;
+                line-height: 1em;
                 margin-top: 53px;
               `}
             >
@@ -112,7 +116,8 @@ const IndexPage = () => (
               css={css`
                 font-size: 2.3em;
                 font-family: Chivo-bold;
-                margin-top: 25px;
+                line-height: 1em;
+                margin-top: 10px;
               `}
             >
               in the city of I.O.T
@@ -270,14 +275,9 @@ const IndexPage = () => (
       </div>
       <div
         css={css`
-          display: flex;
-          margin-top: 100px;
-        `}
-      />
-      <div
-        css={css`
           height: 480px;
           width: 100%;
+          margin-top: 100px;
           background-color: #333333;
         `}
       />
@@ -285,6 +285,7 @@ const IndexPage = () => (
         css={css`
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
           justify-content: space-around;
           margin-top: 37px;
         `}
@@ -293,20 +294,22 @@ const IndexPage = () => (
           css={css`
             display: flex;
             flex-direction: column;
-            flex: 0.5;
             font-family: Chivo-Light;
           `}
         >
           <div
             css={css`
-              display: flex;
               font-family: Chivo-bold;
               margin-bottom: 10px;
             `}
           >
             Overview
           </div>
-          <div>
+          <div
+            css={css`
+              width: 480px;
+            `}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -323,7 +326,6 @@ const IndexPage = () => (
         >
           <div
             css={css`
-              display: flex;
               font-family: Chivo-bold;
               margin-bottom: 10px;
             `}
@@ -390,14 +392,9 @@ const IndexPage = () => (
       </div>
       <div
         css={css`
-          display: flex;
-          margin-top: 100px;
-        `}
-      />
-      <div
-        css={css`
           height: 480px;
           width: 100%;
+          margin-top: 100px;
           background-color: #333333;
         `}
       />
@@ -405,6 +402,7 @@ const IndexPage = () => (
         css={css`
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
           justify-content: space-around;
           margin-top: 37px;
         `}
@@ -413,20 +411,22 @@ const IndexPage = () => (
           css={css`
             display: flex;
             flex-direction: column;
-            flex: 0.5;
             font-family: Chivo-Light;
           `}
         >
           <div
             css={css`
-              display: flex;
               font-family: Chivo-bold;
               margin-bottom: 10px;
             `}
           >
             Overview
           </div>
-          <div>
+          <div
+            css={css`
+              width: 480px;
+            `}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -443,7 +443,6 @@ const IndexPage = () => (
         >
           <div
             css={css`
-              display: flex;
               font-family: Chivo-bold;
               margin-bottom: 10px;
             `}
@@ -510,14 +509,9 @@ const IndexPage = () => (
       </div>
       <div
         css={css`
-          display: flex;
-          margin-top: 100px;
-        `}
-      />
-      <div
-        css={css`
           height: 480px;
           width: 100%;
+          margin-top: 100px;
           background-color: #333333;
         `}
       />
@@ -525,6 +519,7 @@ const IndexPage = () => (
         css={css`
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
           justify-content: space-around;
           margin-top: 37px;
         `}
@@ -533,20 +528,22 @@ const IndexPage = () => (
           css={css`
             display: flex;
             flex-direction: column;
-            flex: 0.5;
             font-family: Chivo-Light;
           `}
         >
           <div
             css={css`
-              display: flex;
               font-family: Chivo-bold;
               margin-bottom: 10px;
             `}
           >
             Overview
           </div>
-          <div>
+          <div
+            css={css`
+              width: 480px;
+            `}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -563,7 +560,6 @@ const IndexPage = () => (
         >
           <div
             css={css`
-              display: flex;
               font-family: Chivo-bold;
               margin-bottom: 10px;
             `}
@@ -628,6 +624,7 @@ const IndexPage = () => (
           </ul>
         </div>
       </div>
+
       <div
         css={css`
           display: flex;
