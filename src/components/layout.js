@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
         <div
           css={css`
             margin: 0 auto;
-            max-width: 680px;
+            max-width: 100%;
             padding: 0px 1.0875rem 1.45rem;
             padding-top: 0;
           `}

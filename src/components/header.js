@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { css } from '@emotion/core'
+import Francogments from '../assets/francogmentstiny.svg'
 
 const ListLink = props => (
   <li
@@ -31,12 +32,14 @@ const Header = ({ siteTitle }) => (
       maxWidth: '100%',
       marginBottom: '20px',
       marginTop: '20px',
-
+      marginLeft: '3em',
+      marginRight: '3em',
       padding: '1.45rem 1.0875rem',
       display: 'flex',
       flexDirection: 'row',
-      alignItems: 'flex-end',
-      justifyContent: 'space-around',
+      flexFlow: 'wrap',
+      alignItems: 'center',
+      justifyContent: 'space-between',
     }}
   >
     <Link
@@ -47,14 +50,13 @@ const Header = ({ siteTitle }) => (
         margin: 0,
       }}
     >
-      <h2
-        style={{
-          margin: 0,
-          fontFamily: 'Chivo-regular',
-        }}
-      >
-        {siteTitle}
-      </h2>
+      <img
+        css={css`
+          width: 50px;
+        `}
+        src={Francogments}
+        alt="Francogments SVG Animated Logo"
+      />
     </Link>
     <ul
       css={css`
@@ -63,9 +65,10 @@ const Header = ({ siteTitle }) => (
         margin: 0;
       `}
     >
-      <ListLink to="/">Projects</ListLink>
-      <ListLink to="/blog">Blog</ListLink>
-      <ListLink to="/about">About Me</ListLink>
+      <ListLink to="/">work</ListLink>
+      <ListLink to="/projects">projects</ListLink>
+      <ListLink to="/blog">writing</ListLink>
+      <ListLink to="/about">about me</ListLink>
     </ul>
   </div>
 )
