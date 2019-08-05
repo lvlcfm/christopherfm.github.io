@@ -88,7 +88,7 @@ export default ({ data }) => {
                 This is my personal blog where I write about technical things,
                 design things and not so very technical or design things.
                 Usually about SMART Cities, Design, technical deep dives, case
-                studies, tutorials, thought experiements and projects!!!!!
+                studies, tutorials, thought experiments and projects!!!!!!!
               </div>
               <span
                 css={css`
