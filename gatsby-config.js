@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'FranCogMents',
+    title: 'Aspiring City Mayor of I.O.T',
     description:
       'This site is dedicated to my projects, design, inventions and ideas',
     author: 'Christopher Franco',

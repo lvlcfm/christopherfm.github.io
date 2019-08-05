@@ -9,15 +9,22 @@ import SmolFrancogments from '../assets/smolfrancogments.svg'
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Home"
+      title="Christopher Franco"
       keywords={[
         'Francogments',
         'open source',
+        'free software',
         'EdTech',
         'Smart Cities',
         'Design',
         'Smart Urban Systems',
         'Full Stack Developer',
+        'Full Stack Engineer',
+        'Internet of Things',
+        'I.O.T',
+        'Free and Open Source Software',
+        'Open Source Software',
+        'FOSS',
       ]}
     />
     <div>
