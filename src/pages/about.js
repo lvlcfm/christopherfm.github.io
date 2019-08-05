@@ -169,15 +169,89 @@ export default ({ data }) => (
           <p>
             Outside of work and the classroom, alongside my friends, I’ve
             dedicated my time to building software solutions pro-bono for
-            non-profits through Blueprint, providing web design services
-            pro-bono for the student community through Innovative Design and
-            teaching computer science and providing mentorship in under
-            resourced communities around the Bay Area through ANova.
+            non-profits through{' '}
+            <span
+              css={css`
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #64c9fa 65%
+                );
+                display: inline;
+              `}
+            >
+              <a
+                css={css`
+                  text-decoration: none;
+                  color: inherit;
+                `}
+                href="https://calblueprint.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blueprint
+              </a>
+            </span>
+            , providing web design services pro-bono for the student community
+            through{' '}
+            <span
+              css={css`
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #ee7e80 65%
+                );
+                display: inline;
+                margin-right: 5px;
+              `}
+            >
+              <a
+                css={css`
+                  text-decoration: none;
+                  color: inherit;
+                `}
+                href="https://innovativedesign.club/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Innovative Design
+              </a>
+            </span>
+            and teaching computer science and providing mentorship in under
+            resourced communities around the Bay Area through{' '}
+            <span
+              css={css`
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #48d7c5 65%
+                );
+                display: inline;
+              `}
+            >
+              <a
+                css={css`
+                  text-decoration: none;
+                  color: inherit;
+                `}
+                href="https://www.berkeleyanova.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ANova
+              </a>
+            </span>
           </p>
           <p>
             Besides work and school, I’m passionate about Smart Cities, EdTech,
             FOSS, Music, Design, Writing, Photography, Cycling, Productivity,
-            Photography, Books, Writing, Economics, Dancing and gaming.
+            Photography, Books, Economics, Dancing and gaming.
           </p>
         </div>
       </div>
