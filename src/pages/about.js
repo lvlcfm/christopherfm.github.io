@@ -174,7 +174,7 @@ export default ({ data }) => (
           </p>
           <p>
             Besides work and school, I’m passionate about Smart Cities, EdTech,
-            Music, Design, Writing, Photography, Cycling, Productivity,
+            FOSS, Music, Design, Writing, Photography, Cycling, Productivity,
             Photography, Books, Writing, Economics, Dancing and gaming.
           </p>
         </div>
@@ -231,7 +231,7 @@ export default ({ data }) => (
               “
             </span>
             Now I’m looking for my next adventure this fall! Feel free to
-            contact me through my information posted below
+            contact me through my information posted below.
             <span
               css={css`
                 font-size: 2em;
@@ -242,6 +242,382 @@ export default ({ data }) => (
             </span>
           </div>
         </div>
+      </div>
+
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin-top: 37px;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div
+            css={css`
+              width: 480px;
+            `}
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore.{' '}
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Responsibilities
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Fullstack Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Front-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Back-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Software Architect
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              DevOps Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              AWS Solution Architect
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin-top: 37px;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div
+            css={css`
+              width: 480px;
+            `}
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore.{' '}
+          </div>
+        </div>
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Responsibilities
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Fullstack Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Front-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Back-end Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              Software Architect
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              DevOps Engineer
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              AWS Solution Architect
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-end;
+          margin-top: 70px;
+          margin-bottom: 30px;
+        `}
+      >
+        <img
+          css={css`
+            height: 57px;
+          `}
+          src={SmolFrancogments}
+          alt="FranCogMents Logo"
+        />
+
+        <div
+          css={css`
+            font-size: 1em;
+            font-family: Chivo-light;
+            height: 57px;
+            max-width: 43%;
+            min-width: 320px;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+            `}
+          >
+            <span
+              css={css`
+                font-size: 2em;
+                font-family: Chivo-italic;
+                margin-left: 21px;
+                margin-right: 17px;
+              `}
+            >
+              -
+            </span>
+            <span
+              css={css`
+                font-size: 2em;
+                font-family: Chivo-italic;
+                margin-right: 4px;
+              `}
+            >
+              “
+            </span>
+            Thank you for your time and energy! Feel free to reach out to me in
+            any of the following mediums!
+            <span
+              css={css`
+                font-size: 2em;
+                font-family: Chivo-italic;
+              `}
+            >
+              ”
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Information */}
+      <div
+        css={css`
+          width: 33%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        `}
+      >
+        <div
+          css={css`
+            font-family: Chivo-bold;
+          `}
+        >
+          Contact Info
+        </div>
+        <ul
+          css={css`
+            font-family: Chivo-light;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          `}
+        >
+          <li
+            css={css`
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <a
+              css={css`
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #ee7e80 65%
+                );
+                display: inline;
+              `}
+              href="mailto: francogments@gmail.com"
+            >
+              Email
+            </a>
+          </li>
+          <li
+            css={css`
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <a
+              css={css`
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #48d7c4 65%
+                );
+                display: inline;
+              `}
+              href="https://github.com/FranCogMents"
+            >
+              Github
+            </a>
+          </li>
+          <li
+            css={css`
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <a
+              css={css`
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #64c9f9 65%
+                );
+                display: inline;
+              `}
+              href="https://www.linkedin.com/in/francogments"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </Layout>
