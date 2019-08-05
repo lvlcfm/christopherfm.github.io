@@ -114,6 +114,8 @@ export default ({ data }) => (
             margin-left: 10px;
           `}
           href="https://essiexu.com/about"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           photography - Essie Xu
         </a>
@@ -243,13 +245,341 @@ export default ({ data }) => (
           </div>
         </div>
       </div>
+      {/* Work*/}
+      <div
+        css={css`
+          width: 50%;
+          min-width: 400px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin-top: 37px;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Work
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                BlitzIQ (YC WC19)
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Full-Stack Engineer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                December 2018 - June 2019
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                vmware, Open Source Program Office
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                UI Developer intern
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                June 2018 - Sept 2018
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                Glassdoor
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Software Engineer Intern
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                June 2017 - August 2017
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                Reify
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Chief Design Officer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                June 2016 - July 2016
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                Hemmingway
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Front-End Engineer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                March 2016 - June 2016
+              </div>
+            </li>
+          </ul>
+        </div>
 
+        {/* Pro-bono Free or Open Source Software*/}
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              margin-bottom: 10px;
+            `}
+          >
+            Fun
+          </div>
+          <ul
+            css={css`
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            `}
+          >
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                Blueprint, Technology for NonProfits
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Project Developer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                January 2018 - Present
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                Free Software Foundation
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Project Developer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                September 2018 - May 2019
+              </div>
+            </li>
+
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                ANova
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Technology Officer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                January 2018 - January 2019
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                Innovative Design
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-italic;
+                `}
+              >
+                Project Developer
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                September 2017 - December 2018
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Projects */}
       <div
         css={css`
+          width: 50%;
+          min-width: 400px;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-          justify-content: space-around;
+          justify-content: space-between;
           margin-top: 37px;
         `}
       >
@@ -266,34 +596,7 @@ export default ({ data }) => (
               margin-bottom: 10px;
             `}
           >
-            Overview
-          </div>
-          <div
-            css={css`
-              width: 480px;
-            `}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore.{' '}
-          </div>
-        </div>
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
-          `}
-        >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Responsibilities
+            Projects
           </div>
           <ul
             css={css`
@@ -306,9 +609,162 @@ export default ({ data }) => (
               css={css`
                 margin: 0;
                 padding: 0;
+                margin-bottom: 10px;
               `}
             >
-              Fullstack Engineer
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                <a
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                  href="https://github.com/ANovaBerkeley/anovalabs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ANova Labs
+                </a>
+              </div>
+
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                ANova
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                <a
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                  href="https://github.com/ANovaBerkeley/checkout-system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hackathon Management System
+                </a>
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                ANova
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                <a
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                  href="https://github.com/ANovaBerkeley/ANovaBerkeley.github.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ANova Hacks Website
+                </a>
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                ANova
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                <a
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                  href="https://github.com/calblueprint/fsf-backend/tree/master/rails"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  FSF Mobile Application
+                </a>
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                Free Software Foundation
+              </div>
+            </li>
+            <li
+              css={css`
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                <a
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                  href="https://github.com/KitchenPantryRO/pantryBot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  PantryBot
+                </a>
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                Discord Bot
+              </div>
             </li>
             <li
               css={css`
@@ -316,52 +772,35 @@ export default ({ data }) => (
                 padding: 0;
               `}
             >
-              Front-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Back-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Software Architect
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              DevOps Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              AWS Solution Architect
+              <div
+                css={css`
+                  font-family: Chivo-regular;
+                `}
+              >
+                <a
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                  href="https://github.com/rails-decal/Rails-Decal-Portal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Rails Decal Portal
+                </a>
+              </div>
+              <div
+                css={css`
+                  font-family: Chivo-light;
+                `}
+              >
+                Blueprint
+              </div>
             </li>
           </ul>
         </div>
-      </div>
-      <div
-        css={css`
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          margin-top: 37px;
-        `}
-      >
+
+        {/* Recognition */}
         <div
           css={css`
             display: flex;
@@ -369,99 +808,139 @@ export default ({ data }) => (
             font-family: Chivo-Light;
           `}
         >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Overview
+          <div>
+            <div
+              css={css`
+                font-family: Chivo-bold;
+                margin-bottom: 10px;
+              `}
+            >
+              Recognition
+            </div>
+            <ul
+              css={css`
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              <li
+                css={css`
+                  margin: 0;
+                  padding: 0;
+                  margin-bottom: 10px;
+                `}
+              >
+                <div
+                  css={css`
+                    font-family: Chivo-regular;
+                  `}
+                >
+                  Borathon, vmware Internal Hackathon
+                </div>
+                <div>2nd Place</div>
+              </li>
+              <li
+                css={css`
+                  margin: 0;
+                  padding: 0;
+                  margin-bottom: 10px;
+                `}
+              >
+                <div
+                  css={css`
+                    font-family: Chivo-regular;
+                  `}
+                >
+                  Bit Bay Hackathon,
+                </div>
+                <div>AWS Winner</div>
+              </li>
+            </ul>
           </div>
-          <div
-            css={css`
-              width: 480px;
-            `}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore.{' '}
+          <div>
+            <div
+              css={css`
+                font-family: Chivo-bold;
+                margin-bottom: 10px;
+              `}
+            >
+              Volunteering
+            </div>
+            <ul
+              css={css`
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              <li
+                css={css`
+                  margin: 0;
+                  padding: 0;
+                  margin-bottom: 10px;
+                `}
+              >
+                <div
+                  css={css`
+                    font-family: Chivo-regular;
+                  `}
+                >
+                  <a
+                    css={css`
+                      text-decoration: none;
+                      color: inherit;
+                    `}
+                    href="http://anovahacks.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ANova Hacks
+                  </a>
+                </div>
+                <div>ANova</div>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
-          `}
-        >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Responsibilities
+          <div>
+            <div
+              css={css`
+                font-family: Chivo-bold;
+                margin-bottom: 10px;
+              `}
+            >
+              Talks | Workshops
+            </div>
+            <ul
+              css={css`
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+              `}
+            >
+              <li
+                css={css`
+                  margin: 0;
+                  padding: 0;
+                  margin-bottom: 10px;
+                `}
+              >
+                <div>Libre Planet Talk</div>
+              </li>
+              <li
+                css={css`
+                  margin: 0;
+                  padding: 0;
+                  margin-bottom: 10px;
+                `}
+              >
+                <div>Responsive Web Design HEX Workshop</div>
+              </li>
+            </ul>
           </div>
-          <ul
-            css={css`
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-            `}
-          >
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Fullstack Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Front-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Back-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Software Architect
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              DevOps Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              AWS Solution Architect
-            </li>
-          </ul>
         </div>
       </div>
+
       <div
         css={css`
           display: flex;
@@ -530,25 +1009,23 @@ export default ({ data }) => (
       {/* Contact Information */}
       <div
         css={css`
-          width: 33%;
+          width: 700px;
+          margin-top: 50px;
           display: flex;
-          flex-direction: column;
-          align-items: flex-start;
+          flex-direction: row;
+          justify-content: space-around;
         `}
       >
-        <div
-          css={css`
-            font-family: Chivo-bold;
-          `}
-        >
-          Contact Info
-        </div>
         <ul
           css={css`
+            width: 500px;
             font-family: Chivo-light;
             list-style-type: none;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
           `}
         >
           <li
@@ -569,6 +1046,7 @@ export default ({ data }) => (
                 display: inline;
               `}
               href="mailto: francogments@gmail.com"
+              rel="noopener noreferrer"
             >
               Email
             </a>
@@ -591,6 +1069,8 @@ export default ({ data }) => (
                 display: inline;
               `}
               href="https://github.com/FranCogMents"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github
             </a>
@@ -613,6 +1093,8 @@ export default ({ data }) => (
                 display: inline;
               `}
               href="https://www.linkedin.com/in/francogments"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
