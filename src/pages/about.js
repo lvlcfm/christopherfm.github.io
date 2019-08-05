@@ -99,7 +99,8 @@ export default ({ data }) => (
       >
         <img
           css={css`
-            width: 650px;
+            max-width: 40%;
+            min-width: 400px;
           `}
           src={ProfilePicture}
           alt="Christopher Franco - author and creator of FranCogMents"
@@ -121,7 +122,8 @@ export default ({ data }) => (
       <div
         css={css`
           display: flex;
-          width: 650px;
+          max-width: 40%;
+          min-width: 400px;
           flex-direction: column;
           align-items: center;
         `}
@@ -175,10 +177,70 @@ export default ({ data }) => (
             Music, Design, Writing, Photography, Cycling, Productivity,
             Photography, Books, Writing, Economics, Dancing and gaming.
           </p>
-          <p>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-end;
+          margin-top: 70px;
+          margin-bottom: 70px;
+        `}
+      >
+        <img
+          css={css`
+            height: 57px;
+          `}
+          src={SmolFrancogments}
+          alt="FranCogMents Logo"
+        />
+
+        <div
+          css={css`
+            font-size: 1em;
+            font-family: Chivo-light;
+            height: 57px;
+            max-width: 40%;
+            min-width: 320px;
+          `}
+        >
+          <div
+            css={css`
+              display: flex;
+            `}
+          >
+            <span
+              css={css`
+                font-size: 2em;
+                font-family: Chivo-italic;
+                margin-left: 21px;
+                margin-right: 17px;
+              `}
+            >
+              -
+            </span>
+            <span
+              css={css`
+                font-size: 2em;
+                font-family: Chivo-italic;
+                margin-right: 4px;
+              `}
+            >
+              “
+            </span>
             Now I’m looking for my next adventure this fall! Feel free to
             contact me through my information posted below
-          </p>
+            <span
+              css={css`
+                font-size: 2em;
+                font-family: Chivo-italic;
+              `}
+            >
+              ”
+            </span>
+          </div>
         </div>
       </div>
     </div>
