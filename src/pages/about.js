@@ -291,7 +291,7 @@ export default ({ data }) => (
                   font-family: Chivo-regular;
                 `}
               >
-                BlitzIQ (YC WC19)
+                BlitzIQ (YC W19)
               </div>
               <div
                 css={css`
