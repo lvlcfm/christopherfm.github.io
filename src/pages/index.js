@@ -5,6 +5,10 @@ import SEO from '../components/seo'
 import { css } from '@emotion/core'
 import Francogments from '../assets/francogments.svg'
 import SmolFrancogments from '../assets/smolfrancogments.svg'
+import BlitzIQ from '../assets/blitziq.svg'
+import VMwareLogo from '../assets/vmware.svg'
+import OSPOLogo from '../assets/OSPO.png'
+import GlassdoorLogo from '../assets/glassdoor.svg'
 
 const IndexPage = () => (
   <Layout>
@@ -192,113 +196,102 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      {/* START BLITZIQ PROJECT */}
       <div
         css={css`
           display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: flex-end;
-          font-size: 3em;
-          margin-top: 50px;
-          flex-flow: wrap;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 150px;
         `}
       >
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-size: 3em;
-          `}
-        >
-          <h1
-            css={css`
-              margin: 0;
-              font-size: 1em;
-              font-family: Chivo-bold;
-            `}
-          >
-            WORK
-          </h1>
-          <h1
-            css={css`
-              margin: 0;
-              font-size: 1em;
-              font-family: Chivo-bold;
-            `}
-          >
-            WORK
-          </h1>
-          <h1
-            css={css`
-              margin: 0;
-              font-size: 1em;
-              font-family: Chivo-bold;
-            `}
-          >
-            WORK
-          </h1>
-        </div>
-        <div
-          css={css`
-            width: 20px;
-            background-color: #555;
-          `}
+        <img
+          css={css``}
+          src={BlitzIQ}
+          alt="
+        BlitzIQ Application on a Desktop Computer"
         />
         <div
           css={css`
-            display: flex;
-            flex-direction: column;
-            font-size: 3em;
+            font-family: Chivo-light;
+            margin: 0;
+            margin-bottom: 20px;
           `}
         >
-          <h1
-            css={css`
-              margin: 0;
-              font-size: 1em;
-              font-family: Chivo-bold;
-            `}
-          >
-            WORK
-          </h1>
-          <h1
-            css={css`
-              margin: 0;
-              font-size: 1em;
-              font-family: Chivo-bold;
-            `}
-          >
-            WORK
-          </h1>
-          <h1
-            css={css`
-              margin: 0;
-              font-size: 1em;
-              font-family: Chivo-bold;
-            `}
-          >
-            WORK
-          </h1>
+          illustration on BlitzIQ
         </div>
       </div>
       <div
         css={css`
-          height: 480px;
-          width: 100%;
-          margin-top: 100px;
-          background-color: #333333;
-        `}
-      />
-      <div
-        css={css`
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          margin-top: 37px;
         `}
       >
         <div
           css={css`
+            display: flex;
+            flex-direction: column;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-italic;
+              font-size: 1em;
+            `}
+          >
+            BlitzIQ
+          </div>
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              font-size: 2.5em;
+              line-height: 0.9em;
+              margin-top: 10px;
+              margin-bottom: 3px;
+            `}
+          >
+            BlitzIQ Application
+          </div>
+          <div
+            css={css`
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+            `}
+          >
+            <a
+              css={css`
+                font-family: Chivo-light;
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #64c9fa 65%
+                );
+                display: inline;
+              `}
+              href="https://www.blitziq.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BlitzIQ Website
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 10px;
+        `}
+      >
+        <div
+          css={css`
+            max-width: 500px;
             display: flex;
             flex-direction: column;
             font-family: Chivo-Light;
@@ -307,6 +300,7 @@ const IndexPage = () => (
           <div
             css={css`
               font-family: Chivo-bold;
+              font-size: 1.2em;
               margin-bottom: 10px;
             `}
           >
@@ -314,324 +308,535 @@ const IndexPage = () => (
           </div>
           <div
             css={css`
-              width: 480px;
+              font-family: Chivo-regular;
+              color: #333333;
             `}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore.{' '}
+            <p>
+              BlitzIQ is a collaborative note taking application that helps
+              customer focused teams be more productive. They are a YC (W19)
+              backed company, where I had the opportunity to join their team as
+              a Full Stack Engineer where I got to help lead Engineering
+              efforts, from System Design, DevOps and Product Engineering. Very
+              grateful for this opportunity and the team that I got to work with
+              - they allowed me to experience first hand what it means to play
+              such a large engineering role during such a critical time in a
+              startup.
+            </p>
           </div>
         </div>
+        {/* responsibilities column starts */}
         <div
           css={css`
             display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
+            flex-direction: row;
           `}
         >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Responsibilities
+          <div>
+            <div
+              css={css`
+                display: flex;
+                flex-direction: column;
+                font-family: Chivo-Light;
+                margin-right: 50px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-bold;
+                  font-size: 1.2em;
+                `}
+              >
+                Responsibilities
+              </div>
+              <ul
+                css={css`
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                `}
+              >
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Full Stack Engineer
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Front-end Engineer
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Back-end Engineer
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Software Architect
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  DevOps Engineer
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  AWS Solutions Architect
+                </li>
+              </ul>
+            </div>
           </div>
-          <ul
-            css={css`
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-            `}
-          >
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Fullstack Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Front-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Back-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Software Architect
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              DevOps Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              AWS Solution Architect
-            </li>
-          </ul>
         </div>
       </div>
-      <div
-        css={css`
-          height: 480px;
-          width: 100%;
-          margin-top: 100px;
-          background-color: #333333;
-        `}
-      />
-      <div
-        css={css`
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          margin-top: 37px;
-        `}
-      >
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
-          `}
-        >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Overview
-          </div>
-          <div
-            css={css`
-              width: 480px;
-            `}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore.{' '}
-          </div>
-        </div>
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
-          `}
-        >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Responsibilities
-          </div>
-          <ul
-            css={css`
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-            `}
-          >
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Fullstack Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Front-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Back-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Software Architect
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              DevOps Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              AWS Solution Architect
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div
-        css={css`
-          height: 480px;
-          width: 100%;
-          margin-top: 100px;
-          background-color: #333333;
-        `}
-      />
-      <div
-        css={css`
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          margin-top: 37px;
-        `}
-      >
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
-          `}
-        >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Overview
-          </div>
-          <div
-            css={css`
-              width: 480px;
-            `}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore.{' '}
-          </div>
-        </div>
-        <div
-          css={css`
-            display: flex;
-            flex-direction: column;
-            font-family: Chivo-Light;
-          `}
-        >
-          <div
-            css={css`
-              font-family: Chivo-bold;
-              margin-bottom: 10px;
-            `}
-          >
-            Responsibilities
-          </div>
-          <ul
-            css={css`
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-            `}
-          >
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Fullstack Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Front-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Back-end Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              Software Architect
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              DevOps Engineer
-            </li>
-            <li
-              css={css`
-                margin: 0;
-                padding: 0;
-              `}
-            >
-              AWS Solution Architect
-            </li>
-          </ul>
-        </div>
-      </div>
+      {/* END BLITZIQ PROJECT */}
 
+      {/* START VMWARE PROJECT */}
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          margin-top: 150px;
+        `}
+      >
+        <img css={css``} src={VMwareLogo} alt="vmware logo" />
+        <img
+          css={css``}
+          src={OSPOLogo}
+          alt="vmware Open Source Program Office logo"
+        />
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-italic;
+              font-size: 1em;
+            `}
+          >
+            vmware open source program office
+          </div>
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              font-size: 2.5em;
+              line-height: 0.9em;
+              margin-top: 10px;
+              margin-bottom: 3px;
+            `}
+          >
+            Open Source Tracking Tool
+          </div>
+          <div
+            css={css`
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+            `}
+          >
+            <a
+              css={css`
+                font-family: Chivo-light;
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #64c9fa 65%
+                );
+                display: inline;
+              `}
+              href="https://www.vmware.com/opensource.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              VMware Open Source
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 10px;
+        `}
+      >
+        <div
+          css={css`
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              font-size: 1.2em;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div
+            css={css`
+              font-family: Chivo-regular;
+              color: #333333;
+            `}
+          >
+            <p>
+              I joined Vmware’s open source programming office as a UI developer
+              intern in the summer of 2018.
+            </p>
+            <p>
+              My project for the summer was to build a tool to track the use of
+              3rd party open source projects in Vmware products. I was able to
+              build an ETL pipeline to aggregate data from different API access
+              points, transform it into meaningful data so that a dashboard
+              could later be built on top of that data.
+            </p>
+            <p>
+              I was blessed to have had such a great mentor, manager and team
+              who I learned so much about not only open source software but also
+              about life itself.
+            </p>
+          </div>
+        </div>
+        {/* responsibilities column starts */}
+        <div
+          css={css`
+            display: flex;
+            flex-direction: row;
+          `}
+        >
+          <div>
+            <div
+              css={css`
+                display: flex;
+                flex-direction: column;
+                font-family: Chivo-Light;
+                margin-right: 50px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-bold;
+                  font-size: 1.2em;
+                `}
+              >
+                Responsibilities
+              </div>
+              <ul
+                css={css`
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                `}
+              >
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Full Stack Engineer
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* END BLITZIQ PROJECT */}
+
+      {/* START VMWARE PROJECT */}
+      <div
+        css={css`
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 150px;
+        `}
+      >
+        <img css={css``} src={GlassdoorLogo} alt="Glassdoor Logo" />
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+        `}
+      >
+        <div
+          css={css`
+            display: flex;
+            flex-direction: column;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-italic;
+              font-size: 1em;
+            `}
+          >
+            Glassdoor
+          </div>
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              font-size: 2.5em;
+              line-height: 0.9em;
+              margin-top: 10px;
+              margin-bottom: 3px;
+            `}
+          >
+            Content Flagging Experience
+          </div>
+          <div
+            css={css`
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+            `}
+          >
+            <a
+              css={css`
+                font-family: Chivo-light;
+                text-decoration: none;
+                color: inherit;
+                background: linear-gradient(
+                  180deg,
+                  transparent 65%,
+                  #64c9fa 65%
+                );
+                display: inline;
+              `}
+              href="https://www.glassdoor.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Glassdoor Website
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 10px;
+        `}
+      >
+        <div
+          css={css`
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            font-family: Chivo-Light;
+          `}
+        >
+          <div
+            css={css`
+              font-family: Chivo-bold;
+              font-size: 1.2em;
+              margin-bottom: 10px;
+            `}
+          >
+            Overview
+          </div>
+          <div
+            css={css`
+              font-family: Chivo-regular;
+              color: #333333;
+            `}
+          >
+            <p>
+              I joined Glassdoor’s Product Engineering team as a Software
+              Engineer Intern in the summer of 2017.
+            </p>
+            <p>
+              My project focused on flagging content. This meant helping the
+              moderation team both on the consumer facing side of flagging
+              content, by implementing a redesigned flagging experience for
+              users, that allows them to easily appy the right flagging label to
+              a piece of content.
+            </p>
+            <p>
+              On the intake side of tickets generated from flagged content, by
+              implementing the feature of allowing the moderation team to sort
+              their flagged content tickets by date, helping them reach their
+              72hr responsive time window.
+            </p>
+            <p>
+              My time at Glassdoor gave me a foundational understanding on what
+              it means to be a Software Engineer and to have an awesome manager
+              and supportive mentors all around.
+            </p>
+          </div>
+        </div>
+        {/* responsibilities column starts */}
+        <div
+          css={css`
+            display: flex;
+            flex-direction: row;
+          `}
+        >
+          <div>
+            <div
+              css={css`
+                display: flex;
+                flex-direction: column;
+                font-family: Chivo-Light;
+                margin-right: 50px;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-bold;
+                  font-size: 1.2em;
+                `}
+              >
+                Responsibilities
+              </div>
+              <ul
+                css={css`
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                `}
+              >
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Full Stack Engineer
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Front-end Engineer
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Back-end Engineer
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <div
+              css={css`
+                display: flex;
+                flex-direction: column;
+                font-family: Chivo-Light;
+              `}
+            >
+              <div
+                css={css`
+                  font-family: Chivo-bold;
+                  font-size: 1.2em;
+                `}
+              >
+                Technology
+              </div>
+              <ul
+                css={css`
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                `}
+              >
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  React JS
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Hibernate
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Tomcat
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  Struts 2
+                </li>
+                <li
+                  css={css`
+                    margin: 0;
+                    padding: 0;
+                  `}
+                >
+                  JSP
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* END VMWARE PROJECT */}
       <div
         css={css`
           display: flex;

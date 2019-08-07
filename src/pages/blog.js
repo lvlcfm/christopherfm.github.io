@@ -11,6 +11,8 @@ export default ({ data }) => {
       <div
         css={css`
           margin-top: 100px;
+          display: flex;
+          flex-direction: column;
         `}
       >
         <div
@@ -34,10 +36,11 @@ export default ({ data }) => {
           css={css`
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: flex-start;
             margin-top: 100px;
-            margin-bottom: 100px;
+            margin-bottom: 120px;
           `}
         >
           <img
@@ -108,12 +111,12 @@ export default ({ data }) => {
             display: flex;
             flex-direction: row;
             justify-content: center;
+            margin-top: 100px;
           `}
         >
           <div
             css={css`
               width: 600px;
-              margin-top: 100px;
             `}
           >
             {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -130,6 +133,7 @@ export default ({ data }) => {
                       font-family: Chivo-bold;
                       font-size: 1.8em;
                       margin-bottom: 5px;
+                      line-height: 1em;
                     `}
                   >
                     {node.frontmatter.title}{' '}

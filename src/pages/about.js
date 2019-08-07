@@ -99,8 +99,8 @@ export default ({ data }) => (
       >
         <img
           css={css`
-            max-width: 40%;
-            min-width: 400px;
+            max-width: 50%;
+            min-width: 300px;
           `}
           src={ProfilePicture}
           alt="Christopher Franco - author and creator of FranCogMents"
@@ -124,8 +124,8 @@ export default ({ data }) => (
       <div
         css={css`
           display: flex;
-          max-width: 40%;
-          min-width: 400px;
+          max-width: 50%;
+          min-width: 300px;
           flex-direction: column;
           align-items: center;
         `}
@@ -279,7 +279,7 @@ export default ({ data }) => (
             font-family: Chivo-light;
             height: 57px;
             max-width: 40%;
-            min-width: 320px;
+            min-width: 300px;
           `}
         >
           <div
@@ -322,8 +322,8 @@ export default ({ data }) => (
       {/* Work*/}
       <div
         css={css`
-          width: 50%;
-          min-width: 400px;
+          width: 70%;
+          min-width: 300px;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
@@ -648,8 +648,8 @@ export default ({ data }) => (
       {/* Projects */}
       <div
         css={css`
-          width: 50%;
-          min-width: 400px;
+          width: 70%;
+          min-width: 300px;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
@@ -1039,7 +1039,7 @@ export default ({ data }) => (
             font-family: Chivo-light;
             height: 57px;
             max-width: 43%;
-            min-width: 320px;
+            min-width: 300px;
           `}
         >
           <div
@@ -1083,7 +1083,7 @@ export default ({ data }) => (
       {/* Contact Information */}
       <div
         css={css`
-          width: 700px;
+          width: 90%;
           margin-top: 50px;
           display: flex;
           flex-direction: row;

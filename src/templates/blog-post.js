@@ -20,6 +20,7 @@ export default ({ data }) => {
             css={css`
               font-family: Chivo-bold;
               font-size: 2em;
+              line-height: 1em;
               margin-bottom: 15px;
             `}
           >
