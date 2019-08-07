@@ -10,6 +10,8 @@ function SEO({ description, lang, meta, keywords, title, image }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description
+        const img = `${data.site.siteMetadata.url}${image}`
+
         return (
           <Helmet
             htmlAttributes={{
@@ -58,9 +60,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
               },
               {
                 name: 'twitter:image',
-                content: `${data.site.siteMetadata.url}${
-                  data.site.siteMetadata.image
-                }`,
+                content: img,
               },
             ]
               .concat(
