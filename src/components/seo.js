@@ -58,7 +58,9 @@ function SEO({ description, lang, meta, keywords, title, image }) {
               },
               {
                 name: 'twitter:image',
-                content: 'https://www.francogments.com/logo.png',
+                content: `${data.site.siteMetadata.url}${
+                  data.site.siteMetadata.image
+                }`,
               },
             ]
               .concat(
