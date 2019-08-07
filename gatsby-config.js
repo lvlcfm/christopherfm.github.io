@@ -5,7 +5,7 @@ module.exports = {
       'This site is dedicated to my projects, design, inventions and ideas',
     author: 'Christopher Franco',
     url: 'https://www.francogments.com',
-    image: '/images/logo.png',
+    image: '/logo.png',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
