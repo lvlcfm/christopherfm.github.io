@@ -261,6 +261,7 @@ export default ({ data }) => (
           flex-direction: row;
           justify-content: center;
           align-items: flex-end;
+          flex-wrap: wrap;
           margin-top: 70px;
           margin-bottom: 70px;
         `}
@@ -1021,6 +1022,7 @@ export default ({ data }) => (
           flex-direction: row;
           justify-content: center;
           align-items: flex-end;
+          flex-wrap: wrap;
           margin-top: 70px;
           margin-bottom: 30px;
         `}
@@ -1092,7 +1094,7 @@ export default ({ data }) => (
       >
         <ul
           css={css`
-            width: 500px;
+            width: 300px;
             font-family: Chivo-light;
             list-style-type: none;
             margin: 0;

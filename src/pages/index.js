@@ -99,7 +99,7 @@ const IndexPage = () => (
                 margin-top: 57px;
               `}
             >
-              I’m a Fullstack engineer,
+              I’m a Full Stack engineer,
             </div>
             <div
               css={css`

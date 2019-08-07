@@ -30,10 +30,9 @@ const Header = ({ siteTitle }) => (
   <div
     style={{
       maxWidth: '100%',
-      marginBottom: '20px',
+      margin: '0',
       marginTop: '20px',
-      marginLeft: '3em',
-      marginRight: '3em',
+      marginBottom: '20px',
       padding: '1.45rem 1.0875rem',
       display: 'flex',
       flexDirection: 'row',
@@ -54,6 +53,7 @@ const Header = ({ siteTitle }) => (
         id="home"
         css={css`
           width: 50px;
+          margin-left: 40px;
         `}
         src={Francogments}
         alt="Francogments SVG Animated Logo"
@@ -64,6 +64,7 @@ const Header = ({ siteTitle }) => (
         list-style-type: none;
         display: flex;
         margin: 0;
+        margin-right: 40px;
       `}
     >
       <ListLink to="/">work</ListLink>

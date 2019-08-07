@@ -24,7 +24,7 @@ export default ({ data }) => {
         >
           <div
             css={css`
-              font-size: 3.9em;
+              font-size: 3em;
               font-family: Chivo-light;
               line-height: 1em;
             `}
@@ -111,7 +111,7 @@ export default ({ data }) => {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            margin-top: 100px;
+            margin-top: 200px;
           `}
         >
           <div
