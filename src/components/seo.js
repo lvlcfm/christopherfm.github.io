@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: 'twitter:image',
-                content: Francogments,
+                content: { Francogments },
               },
             ]
               .concat(
