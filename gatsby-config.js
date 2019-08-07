@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Aspiring Mayor of I.O.T',
     description:
-      'Writing about Smart Cities, Full Stack Engineering and Design',
+      'Writing about Smart Cities, EdTech, Full Stack Engineering and Design',
     author: 'Christopher Franco',
     url: 'https://www.francogments.com',
     image: '/francogments.png',

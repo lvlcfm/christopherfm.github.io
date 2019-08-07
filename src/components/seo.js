@@ -27,6 +27,10 @@ function SEO({ description, lang, meta, keywords, title, image }) {
                 content: title,
               },
               {
+                property: 'og:url',
+                content: `${data.site.siteMetadata.url}`,
+              },
+              {
                 property: 'og:image',
                 content: `${data.site.siteMetadata.url}${
                   data.site.siteMetadata.image
