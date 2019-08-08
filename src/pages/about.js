@@ -152,7 +152,7 @@ export default ({ data }) => (
           <p>
             My name is Christopher Franco. I am a Full Stack Engineer, creative
             technologist and I’m in the process of finishing school at UC
-            Berkeley were I am completing coursework in Rhetoric and Computer
+            Berkeley where I am completing coursework in Rhetoric and Computer
             Science.
           </p>
 
