@@ -1,20 +1,8 @@
 import Head from "next/head";
-import Link from "next/link";
 import Layout, { siteTitle } from "../components/layout";
-import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/posts";
-import {GetStaticProps} from 'next';
 
-export default function Home({
-  allPostsData
-}: {
-  allPostsData: {
-    date: string
-    title: string
-    id: string
-  }[]
-}) {
+export default function Work() {
   return (
     <Layout home>
       <Head>
@@ -27,17 +15,9 @@ export default function Home({
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        main page
+        <h2 className={utilStyles.headingLg}>Work </h2>
+
       </section>
     </Layout>
   );
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }
