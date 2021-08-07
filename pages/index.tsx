@@ -11,10 +11,10 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <Image
-          src="/../public/images/clapperboard.svg"
+          src="/images/clapperboard.svg"
           alt="Clapperboard"
-          width={698}
-          height={597.34}
+          width={700}
+          height={602}
         />
       </section>
     </Layout>

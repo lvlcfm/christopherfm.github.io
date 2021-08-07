@@ -35,7 +35,7 @@ export default function Layout({
         <Link href="/">
           <a>
             <Image
-              src="/../public/images/christopherFrancoMonterrosaLogo.svg"
+              src="/images/christopherFrancoMonterrosaLogo.svg"
               alt="Clapperboard"
               width={55}
               height={43}
