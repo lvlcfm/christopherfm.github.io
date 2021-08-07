@@ -33,7 +33,14 @@ export default function Layout({
       </Head>
       <header className={styles.header}>
         <Link href="/">
-          <a>CFM</a>
+          <a>
+            <Image
+              src="/../public/images/christopherFrancoMonterrosaLogo.svg"
+              alt="Clapperboard"
+              width={55}
+              height={43}
+            />
+          </a>
         </Link>
         <Navigation />
       </header>
