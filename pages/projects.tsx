@@ -9,14 +9,12 @@ export default function Projects() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <div>
-          <p>red carpet access to projects made with friends</p>
-        </div>
+      <section className={utilStyles.projectsHeadingContainer}>
+        <div className={utilStyles.projectsHeading}>Projects</div>
+        <div>red carpet access to projects made with friends</div>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Projects</h2>
-        <div>
+      <section>
+        <div className={utilStyles.projectContainer}>
           <a
             href="https://github.com/calblueprint/airlock"
             target="_blank"
@@ -29,22 +27,24 @@ export default function Projects() {
               height={459}
             />
           </a>
-          <p>Airlock, an Airtable client, with Authentication</p>
+          <div className={utilStyles.projectDescription}>
+            Airlock, an Airtable client, with Authentication
+          </div>
         </div>
-        <div>
+        <div className={utilStyles.projectContainer}>
           <a
             href="https://github.com/ANovaBerkeley/anovalabs"
             target="_blank"
             rel="noreferrer"
           >
             <Image
-              src="/images/projects/movie_ticket_airlock.svg"
+              src="/images/projects/movie_ticket_anovalabs.svg"
               alt="Movie Ticket for ANova Labs"
               width={698}
               height={459}
             />
           </a>
-          <p>ANova Labs, an open source Ed Tech platform project</p>
+          <div>ANova Labs, an open source Ed Tech platform project</div>
         </div>
       </section>
     </Layout>
