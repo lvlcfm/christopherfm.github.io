@@ -7,13 +7,7 @@ import Navigation from './Navigation';
 
 const name = 'Christopher Franco Monterrosa';
 export const siteTitle = 'CFM | christopher franco monterrosa';
-export default function Layout({
-  children,
-  home,
-}: {
-  children: React.ReactNode;
-  home?: boolean;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -63,13 +57,6 @@ export default function Layout({
         <Navigation />
       </header>
       <main className={styles.main}>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </div>
   );
 }

@@ -2,6 +2,41 @@
   padding-top: 22px;
 }
 
+.francogmentsPost {
+  margin-top: 50px;
+  padding-bottom: 42px;
+}
+.francogmentsContent {
+  font-family: 'Inter';
+}
+
+.francogmentPostsContainer {
+  width: 619px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.francogmentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.francogments {
+  font-family: 'Bangers';
+  font-size: 40px;
+  margin-top: -15px;
+}
+.francogmentsLogo {
+  margin-right: 101px;
+}
+
+.slogan {
+  font-family: 'Courier New';
+  font-size: 14px;
+  font-style: italic;
+}
+
 .projectsHeadingContainer {
   display: flex;
   flex-direction: column;
@@ -33,10 +68,10 @@
 }
 
 .headingXl {
+  font-family: 'Chivo';
   font-size: 2rem;
   line-height: 1.3;
   font-weight: 800;
-  letter-spacing: -0.05rem;
   margin: 1rem 0;
 }
 
@@ -75,4 +110,6 @@
 
 .lightText {
   color: #666;
+  font-family: 'Chivo';
+  font-weight: lighter;
 }
