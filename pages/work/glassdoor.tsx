@@ -64,9 +64,9 @@ export default function Glassdoor() {
               CTO.
             </p>
             <p>
-              CLOSE ON CHRISTOPHER FRANCO MONTERROSA (20's),bright eyed, curly
-              wavy black hair parted to the left,with black Ray-ban eyeglasses
-              keeping the curls from crashing into his eyes.
+              CLOSE ON CHRISTOPHER FRANCO MONTERROSA (20&apos;s),bright eyed,
+              curly wavy black hair parted to the left,with black Ray-ban
+              eyeglasses keeping the curls from crashing into his eyes.
             </p>
 
             <p>
