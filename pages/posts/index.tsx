@@ -21,18 +21,24 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <Image
-          src="/images/writing/logo_francogments.svg"
-          alt="FranCogMents Logo"
-          width={196.7}
-          height={181.5}
-        />
-        <p>Franco&apos;s Cognitive Experiments</p>
-        <p>FranCogMents - internet stationary for my mind</p>
+      <section className={utilStyles.francogmentsContainer}>
+        <div className={utilStyles.francogmentsLogo}>
+          <Image
+            src="/images/writing/logo_francogments.svg"
+            alt="FranCogMents Logo"
+            width={196.7}
+            height={181.5}
+          />
+        </div>
+
+        <div className={utilStyles.francogments}>
+          Franco&apos;s Cognitive Experiments
+        </div>
+        <div className={utilStyles.slogan}>
+          FranCogMents - internet stationary for my mind
+        </div>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+      <section className={utilStyles.francogmentPostsContainer}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>

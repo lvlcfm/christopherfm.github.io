@@ -7,7 +7,7 @@ import utilScriptStyles from '../../styles/utilsScreenPlay.module.css';
 
 export default function Work() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
