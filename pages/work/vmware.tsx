@@ -4,7 +4,7 @@ import utilStyles from '../../styles/utils.module.css';
 
 export default function Vmware() {
   return (
-    <Layout home>
+    <Layout>
       <section className={utilStyles.headingMd}>
         <Image
           src="/images/work/clapperboard_vmware.svg"

@@ -5,7 +5,7 @@ import utilScriptStyles from '../../styles/utilsScreenPlay.module.css';
 
 export default function Glassdoor() {
   return (
-    <Layout home>
+    <Layout>
       <section className={utilStyles.headingMd}>
         <Image
           src="/images/work/clapperboard_glassdoor.svg"
