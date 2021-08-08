@@ -1,13 +1,23 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+  margin: 0 auto 0;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 22px 32px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .backToHome {

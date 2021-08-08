@@ -18,6 +18,24 @@ export default function Layout({
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/fonts/CourierNew/Courier-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/CourierNew/Courier-Bold.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Bangers/Bangers-regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -44,7 +62,7 @@ export default function Layout({
         </Link>
         <Navigation />
       </header>
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
