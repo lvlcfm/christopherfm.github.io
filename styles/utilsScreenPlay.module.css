@@ -1,0 +1,119 @@
+.scriptActor {
+  align-self: center;
+  font-weight: bold;
+}
+.scriptDialogueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scriptDialogue {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+}
+
+.sceneHeading {
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.container {
+  padding-top: 114px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 535px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+.containerWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 535px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 42px;
+}
+
+.title {
+  font-weight: bold;
+  padding-bottom: 42px;
+}
+
+.titleContainer {
+  font-weight: bold;
+  padding-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credit {
+  padding-bottom: 6px;
+}
+
+.author {
+  padding-bottom: 42px;
+}
+
+.date {
+  display: flex;
+  align-self: flex-end;
+}
+
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
