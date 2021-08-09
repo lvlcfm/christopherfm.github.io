@@ -53,8 +53,13 @@ export default function Glassdoor() {
               local, he rides this bridge everday to work from the Embarcadero.
             </p>
             <p>He’s early.</p>
-            <p>He’s tourists aren’t here early.</p>
-            <p>He’s locals aren’t even here early.</p>
+            <p>
+              He’s <i>tourists aren’t here</i> early.
+            </p>
+
+            <p>
+              He’s <i>locals aren’t even here </i> early.
+            </p>
             <p>Bike lights are ON.</p>
           </div>
         </div>
@@ -117,11 +122,8 @@ export default function Glassdoor() {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div className={utilScriptStyles.containerWork}>
-          <div className={utilScriptStyles.sceneHeading}>MUSIC STOPS:</div>
-        </div>
+
+        <div className={utilScriptStyles.sceneInstruction}>MUSIC STOPS:</div>
       </section>
       <section>
         <div className={utilScriptStyles.containerWork}>
