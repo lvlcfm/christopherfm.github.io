@@ -18,20 +18,21 @@ export default function Work() {
           <div className={utilScriptStyles.author}>
             Christopher Franco Monterrosa
           </div>
-          <div className={utilScriptStyles.date}>27 July 2021</div>
+          <div className={utilScriptStyles.date}>8 August 2021</div>
           <div>
             <p>
-              This story takes place in the bay area, with a bit of south bay
-              mixed in between.
+              This story takes place in the bay area, with the iconic summer in
+              south bay mixed in between.
             </p>
             <p>
-              The story branches into four engineering experiences that the main
-              character goes through. From their first internship at Glassdoor,
-              to leading engineering efforts at YC backed companies.
+              A coming of age story, weaving four engineering experiences that
+              Christopher Franco Monterrosa goes through. From their first
+              internship at Glassdoor, to their summer at vmware, to finally
+              leading engineering efforts at YC backed companies.
             </p>
             <p>
               The story starts in the past, a few months after his first startup
-              experience at a fashion tech company.
+              experience at a fashion tech company he ran with his friend.
             </p>
             <p>It begins in the summer of 2017.</p>
           </div>
