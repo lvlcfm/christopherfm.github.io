@@ -18,6 +18,13 @@
   align-self: flex-start;
 }
 
+.sceneInstruction {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  align-self: flex-start;
+  font-size: 14px;
+}
+
 .container {
   padding-top: 114px;
   padding-bottom: 110px;
