@@ -32,8 +32,7 @@ export default function Work() {
             </p>
             <p>
               The story starts in the past, a few months after his first startup
-              experience at a fashion tech company he helped run with his
-              friend.
+              experience at a fashion tech company he helped run.
             </p>
             <p>It begins in the summer of 2017.</p>
           </div>
