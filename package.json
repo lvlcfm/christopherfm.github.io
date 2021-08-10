@@ -11,6 +11,7 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "date-fns": "^2.23.0",
+    "fathom-client": "^3.1.0",
     "gray-matter": "^4.0.3",
     "next": "^11.0.2-canary.27",
     "postcss-flexbugs-fixes": "^5.0.2",
