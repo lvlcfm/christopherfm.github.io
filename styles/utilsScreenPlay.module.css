@@ -1,3 +1,86 @@
+.scriptIntroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 555px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding: 20px;
+  padding-bottom: 42px;
+}
+
+.scriptQuickCuts {
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.scriptSongScene {
+  font-weight: bold;
+  align-self: flex-start;
+  color: #58a6ff;
+  padding-bottom: 10px;
+}
+
+.scriptActorInfo {
+  font-weight: bold;
+  align-self: flex-start;
+  color: #58a6ff;
+}
+
+.scriptMetaDescription {
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.scriptCameraDirection {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.scriptContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 565px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding: 30px;
+  padding-bottom: 42px;
+}
+
+.scriptSceneHeading {
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.scriptTitleContainer {
+  font-weight: bold;
+  padding-bottom: 42px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scriptDialogueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.scriptCredit {
+  align-self: center;
+}
+
+.scriptAuthor {
+  align-self: center;
+}
+
+.scriptDate {
+  align-self: flex-end;
+}
+
 .scriptActor {
   align-self: center;
   font-weight: bold;
@@ -6,6 +89,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
 }
 .scriptDialogue {
   display: flex;
