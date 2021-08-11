@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     title:
       'Christopher Franco Monterrosa - Software Engineer, Writer, Designer and SMART City Architect',
     description: `Software Engineer, Writer, Designer and SMART City Architect`,
-    image: 'https://christopher.fm/images/clapperboard.svg',
+    image: 'https://christopher.fm/images/clapperboard.png',
     type: 'website',
   };
 
@@ -43,15 +43,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
         <link
           rel="preload"
+          href="/fonts/IBM/IBM-Courier-Italic.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
           href="/fonts/Inter/Inter.var.woff2"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
         />
-        <meta name="description" content={`${meta.description}`} />
-        <meta property="og:image" content={`${meta.image}`} />
-        <meta name="og:title" content={`${meta.title}`} />
-        <meta name="twitter:card" content="summary_large_image" />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -82,6 +86,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           content="/static/favicons/browserconfig.xml"
         />
         <meta name="theme-color" content="#ffffff" />
+        <meta property="og:type" content={meta.type} />
+        <meta property="og:site_name" content="Christopher Franco Monterrosa" />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:image" content={meta.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@lvlcfm" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={meta.image} />
       </Head>
       <header className={styles.header}>
         <Link href="/">

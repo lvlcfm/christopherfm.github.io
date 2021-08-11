@@ -103,7 +103,7 @@
 }
 
 .sceneInstruction {
-  font-family: 'IBM Courier Bold', Courier, monospace;
+  font-family: 'IBM Courier', Courier, monospace;
   font-weight: bold;
   align-self: flex-start;
   font-size: 14px;
