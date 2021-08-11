@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     title:
       'Christopher Franco Monterrosa - Software Engineer, Writer, Designer and SMART City Architect',
     description: `Software Engineer, Writer, Designer and SMART City Architect`,
-    image: 'https://christopher.fm/images/clapperboard.png',
+    image: 'https://christopher.fm/images/banner.png',
     type: 'website',
   };
 
