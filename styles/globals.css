@@ -3,7 +3,7 @@
   font-style: regular;
   font-weight: 400;
   font-display: optional;
-  src: url(/fonts/Bangers/Bangers-Regular.ttf) format('ttf');
+  src: url(/fonts/Bangers/Bangers-Regular.woff2) format('woff2');
 }
 
 @font-face {
