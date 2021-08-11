@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'Bangers';
+  font-style: regular;
+  font-weight: 400;
+  font-display: optional;
+  src: url(/fonts/Bangers/Bangers-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Courier';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: url(/fonts/IBM/IBM-Courier.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Courier Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-display: optional;
+  src: url(/fonts/IBM/IBM-Courier-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Courier Italic';
+  font-style: normal;
+  font-weight: italic;
+  font-display: optional;
+  src: url(/fonts/IBM/IBM-Courier-Italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: url(/fonts/Inter/Inter.var.woff2) format('woff2');
+}
+
 html,
 body {
   padding: 0;
