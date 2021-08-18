@@ -137,7 +137,7 @@ export default function Vmware() {
             palette to match.
           </p>
           <p>The information architecture of the poster is immaculate.</p>
-          <p>A crodwd draws around him.</p>
+          <p>A crowd draws around him.</p>
           <div className={utilScriptStyles.scriptCameraDirection}>
             JUMP CUT:
           </div>
@@ -173,8 +173,8 @@ export default function Vmware() {
             in slow concentric circles - the distribution is even.
           </p>
           <p>
-            He tamps. The angle is perfect and perpendicular. The grounds are
-            perfectly flat.
+            He tamps. The angle is perpendicular. The grounds are perfectly
+            flat.
           </p>
           <p>He loads up the portafilter onto the expresso machine.</p>
           <p>
@@ -230,7 +230,7 @@ export default function Vmware() {
           </p>
           <p>One line of text makes an appearance on his terminal</p>
           <p>The API call he just wrote is a success!</p>
-          <p>A FLASH of verbose text takes over the terminaal screen.</p>
+          <p>A FLASH of verbose text takes over the terminal screen.</p>
           <p>He takes a quick glance. Hands slip off from the keyboard.</p>
           <p>His forehead meets the conference room table.</p>
           <p>
@@ -245,7 +245,7 @@ export default function Vmware() {
             Walking down the hall he remembers talking to one of the open source
             engineers about a similar issue they ran into once. As Franco is
             walking down the hall, he sees the Open Source Engineer. He slowly
-            walks up to an olympic walking speed and peeks over their cubicle
+            walks up to an olympic stride and peeks over their cubicle
           </p>
           <div className={utilScriptStyles.scriptDialogueContainer}>
             <div className={utilScriptStyles.scriptDialogue}>
