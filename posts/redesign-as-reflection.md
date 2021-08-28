@@ -1,5 +1,5 @@
 ---
-title: 'Redesign as Reflection - the creative process behind christopher.fm'
+title: 'Redesign as Reflection - Reflect, Parti & Create to a new Digital Persona'
 date: '2021-08-27'
 ---
 
