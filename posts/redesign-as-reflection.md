@@ -35,7 +35,7 @@ I open Figma and use every single System font installed on my computer along wit
 
 My pocket of time and space that I had in the beginning of the year suddenly expanded into the sea of conciousness that I needed to explore.
 
-And so I began with interests — I always wanted to make movies — so I started with watching iconic films. And then I asked myself "wait...if life were a movie and I was the main character, what would the script say?"
+And so I began with interests — I always wanted to make movies — so I started with watching iconic films. And then I asked myself "wait...if life is a movie and I am the main character, what would the script say?"
 
 If we are the stories we tell ourselves everyday, what were the stories I was telling myself everyday?
 
@@ -67,7 +67,7 @@ I then start playing with concepts of how the website will look like, from havin
 
 But then I looked up from my desk and there it was — The Clapperboard.
 
-Staring at me in the face this whole time since July 8th 2021. I didn't need to come up with something new, I only had to continue the process that I was already on by asking myself again — if my life is a movie, what would the script say?
+Staring at me in the face this whole time since July 8th 2021. I didn't need to come up with something new, I only had to continue the process that I was already on by asking myself again — if my life is a movie and I am the main character, what would the script say?
 
 If my personal plot of digital landscape is an extension of that idea, what would it look like, what would it say?
 
@@ -79,7 +79,7 @@ My life is a movie, I am the main character and it starts with a Clapperboard pa
 
 I quickly sketch the _parti_ before I sleep. I wake up the next day and a Figma prototype is born.
 
-The _parti_ orchestratres and generates the designs and decisions in real time. It's a manifestation of the deep self-reflection I've done.
+The _parti_ orchestrates and generates the designs and decisions in real time. It's a manifestation of the deep self-reflection I've done.
 
 I begin an inner mologue — I ask myself how should I communicate my work experience? A screen play! But how will vistors navigate to those screenplays? Well, what if each screenplay had it's own movie poster as a way to establish wayfinding for the screen play content itself? What about the projects I've worked on? Since those are projects that everyone can see, let's do movie tickets based off of an old AMC movie ticket.
 
