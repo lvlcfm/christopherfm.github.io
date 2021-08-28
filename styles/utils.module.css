@@ -23,9 +23,10 @@
 .francogmentsPost {
   margin-top: 50px;
   padding-bottom: 42px;
+  max-width: 619px;
 }
 .francogmentsContent {
-  font-family: 'Inter';
+  font-size: 14px;
 }
 
 .francogmentPostsContainer {
