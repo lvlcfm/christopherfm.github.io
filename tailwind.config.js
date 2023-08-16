@@ -1,3 +1,13 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./pages/**/*.js", "./components/**/*.js"],
-};
+  content: [
+    "./app/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./content/**/*.{md,mdx}",
+  ],
+  darkMode: ["class"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("@tailwindcss/typography")],
+}
