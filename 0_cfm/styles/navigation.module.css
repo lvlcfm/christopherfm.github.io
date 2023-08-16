@@ -1,9 +1,0 @@
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.item {
-  padding: 0px 10px;
-}
